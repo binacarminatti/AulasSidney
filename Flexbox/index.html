@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Exemplo Flex Box</title>
+        <style>
+            .container {
+                background-color: #f7daf2;
+                padding: 16px;
+                height: 500px;
+                display: flex;
+                flex-direction: row; /* se eu trocar row por column vai orientar em colunas */
+                justify-content: space-between;
+                align-items: flex-end; /*alinha embaixo - baseline alinha em cima - center alinha no centro verticalmente*/
+                flex-wrap: wrap-reverse;
+                align-content: center;
+                row-gap: 16px;
+                column-gap: 16px;
+            }
+            * {
+                margin: 0px;
+            }
+            .caixa-1 {
+                background-color: #c6d8f0;
+                height: 150px;
+                width: 150px;
+                text-align: center;
+                font-size: 40px;
+                border-radius: 16px;
+            }
+            .caixa-2 {
+                background-color: #b5f0c4;
+                height: 150px;
+                width: 150px;
+                text-align: center;
+                font-size: 40px;
+                border-radius: 16px;
+            }
+            .caixa-3 {
+                background-color: #f7bbb0;
+                height: 150px;
+                width: 150px;
+                text-align: center;
+                font-size: 40px;
+                border-radius: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container"> 
+            <div class="caixa-1">1</div>
+            <div class="caixa-2">2</div>
+            <div class="caixa-3">3</div>
+
+            <div class="caixa-1">4</div>
+            <div class="caixa-2">5</div>
+            <div class="caixa-3">6</div>
+
+            <div class="caixa-1">7</div>
+            <div class="caixa-2">8</div>
+            <div class="caixa-3">9</div>
+
+            <div class="caixa-1">10</div>
+            <div class="caixa-2">11</div>
+            <div class="caixa-3">12</div>
+        </main>
+    </body>
+</html>
