@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Exemplo layout padrão</title> 
+        <link href="layout.css" rel="stylesheet" type="text/css" /> <!--href: é para puxar um CSS padrão para todas as páginas, dessa forma não precisa do <style>. Cria-se um novo arquivo em formato CSS para tal-->
+    </head>
+    <body>
+        <header>    
+            <div><img src="logo.png" height="90px" title="Mamãe urso consultoria em amamentação"></div> <!-- usar height diminui o tamanho da imagem, para ela se enquadrar ao tamanho do cabeçalho -->
+            <div>
+                <form action=""> <!-- o action é onde colocamos o codigo backend =) -->
+                    <input id="pesquisa" type="text" placeholder="Faça aqui sua pesquisa">   <!-- se você colocar "date" ali dentro, por exemplo, no site puxa o calendário para a pessoa poder selecionar uma data. Para reservar uma data no hotel, por exemplo  -->
+                    <!-- placeholder é utilizado para colocar uma frase dentro da caixa de pesquisa que some quando a pessoa começa a digitar -->
+                    <input id="bt_pesquisar" type="button" value="pesquisar" title="pesquisar">
+                </form>
+            </div>
+            <div>Configurações</div>
+        </header>
+    </body>
+</html>
