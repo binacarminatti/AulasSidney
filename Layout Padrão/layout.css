@@ -27,3 +27,29 @@ header{
 #bt_pesquisar:hover {  /* ao passar o mouse por cima, ele muda de cor */
     background-color: rgb(233, 218, 192);
 }
+main{
+    background-image: url("fundo.jpg");
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    border: 1px solid red;
+    height: 800px;
+}
+.caixa{
+    border: 1px solid rgb(252, 166, 53);
+    height: 400px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(248, 210, 166);
+    opacity: .9;
+}
+h2{
+    border: 1px solid rgb(201, 141, 14);
+    background-color: rgb(243, 234, 176);
+    margin-bottom: 20px;
+    color: rgb(219, 164, 63);
+}
+.textinho{
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
